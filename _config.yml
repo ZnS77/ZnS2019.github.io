@@ -10,21 +10,23 @@
 ############################
 
 # Name of website
-title: My Website
+title: Naisong Zhou
 
 # Your name to show in the footer
-author: Some Person
+author: Naisong Zhou
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  # About Me: "aboutme"
+  Blogs: "blogs/blogs"
+  Projects: 
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -32,7 +34,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/avatar.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -49,13 +51,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "naisong.zhou@epfl.ch"
+  # rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  # facebook: deanattali
+  github: ZnS2019
+  # twitter: daattali
+  # patreon: DeanAttali
+  # youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -94,7 +96,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "ZnS2019.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -247,10 +249,10 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Zurich"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+# permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
@@ -261,16 +263,16 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "projects"
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
-    values:
-      layout: "page"
+  # -
+    # scope:
+    #   path: "" # any file that's not a post will be a "page" layout by default
+    # values:
+    #   layout: "page"
 
 # Exclude these files from production site
 exclude:
