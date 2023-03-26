@@ -22,7 +22,7 @@ author: Naisong Zhou
 navbar-links:
   # About Me: "aboutme"
   Blogs: "blogs/blogs"
-  Projects: 
+  Projects: "projects"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
